@@ -41,7 +41,7 @@ echo "CSV file '$output_file' has been generated."
 4. fetch the csvserver using wget
    wget -O ./part-1-output http://localhost:9393/raw
 5. redirect docker logs using docker command
-   docker logs 20c >& part-1-logs
+   docker logs 76a>& part-1-logs
 6. stop container using below command.
    docker stop <container id>
 
